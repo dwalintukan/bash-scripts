@@ -1,6 +1,7 @@
 #!/bin/bash
 # Reads an env file line by line and concatenates it to a single string var.
 # Useful if you need to pass env vars via commandline, e.g. during Docker build.
+# Author: Deric Walintukan
 
 ERR_MESSAGE="$ ./concat-env.sh /path/to/.env"
 
